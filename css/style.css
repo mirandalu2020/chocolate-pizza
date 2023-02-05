@@ -94,20 +94,19 @@ article p{
 
 main ul{
   background-image: url("../img/list-bg.png");
-  display: inline;
   width: 100%;
   columns:2;
-  /* column-width: 440px; */
-  font-family: monospace;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
-  padding: 1rem 5rem 1rem 4rem;
+  padding: 2.1rem 5rem 1rem 4rem;
   margin-bottom: 2rem;
+  column-gap: 80px;
 }
 
 main ul li{
   width: fit-content;
-  word-wrap: break-word;
-  margin: 0.5rem 0 0 0;
+  /* color:brown; */
+  margin: 11px 0 0 0;
 }
 
 main section{
