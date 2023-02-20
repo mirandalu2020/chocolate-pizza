@@ -190,3 +190,7 @@ footer section{
   width: 900px;
   margin-top: 5rem;
 }
+
+.strike-thru:checked +label{
+  text-decoration: line-through;
+}
